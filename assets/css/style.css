@@ -1,0 +1,162 @@
+#backgroundMain {
+    background-image: url("../img/mainbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 88vh;
+    max-height: 90vh;
+    /* margin-bottom: 2rem; */
+    /* background-color: #e9ecef; */
+    /* border-radius: 0.3rem; */
+
+}
+
+
+/* MENU ADQUERIR PRODUCTO  */
+#menuAdquerir {
+    width: 100%;
+    height: auto;
+}
+
+.itemAdquerir {
+    width: 100px;
+    height: 100px;
+    /* background-color: teal; */
+    margin: 2px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+    border: 1px solid rgba(0, 0, 0, .075);
+}
+
+.itemAdquerir:hover {
+
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+
+}
+
+/* MENU DISPINIBLE  */
+
+#menuDisponible {
+    width: 100%;
+    height: auto;
+
+}
+
+/* .itemDisponible {
+    width: 30vw;
+    height: 30vh;
+    background-color: teal;
+    margin: 2px;
+}
+
+.itemDisponibleimg{
+    width: 100%;
+    background-size: cover;
+} */
+
+
+
+/*CARDS MENUS DISPONIBLES*/
+.imgMenuDisponible {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.midle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cardItemMenuDisponible {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+.cardItemMenuDisponible:hover>img {
+    opacity: 0.3;
+}
+
+.cardItemMenuDisponible:hover .midle {
+    opacity: 1;
+}
+
+
+
+/* NUEVSO ANTOJOS  */
+.itemNuevoAntojo {
+    border: 1px solid rgba(0, 0, 0, .075);
+}
+
+.imgNuevosAntojo {
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+}
+
+.order-6 {
+    order: 6 !important;
+}
+
+.order-7 {
+    order: 7 !important;
+}
+
+.order-8 {
+    order: 8 !important;
+}
+
+.order-9 {
+    order: 9 !important;
+}
+
+.order-10 {
+    order: 10 !important;
+}
+
+.order-11 {
+    order: 11 !important;
+}
+
+@media (min-width: 768px) {
+    .order-md-6 {
+        order: 6 !important;
+    }
+
+    .order-md-7 {
+        order: 7 !important;
+    }
+
+    .order-md-8 {
+        order: 8 !important;
+    }
+
+    .order-md-9 {
+        order: 9 !important;
+    }
+    .order-md-10 {
+        order: 10 !important;
+    }
+    
+    .order-md-11 {
+        order: 11 !important;
+    }
+}
