@@ -1,0 +1,29 @@
+.mainTopTitle{
+    font-family: 'Nuosu SIL', serif;
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 300;
+    line-height: 1.2;
+    color: #2A2827;
+    text-shadow: 1px 1px #666260;
+}
+
+.titleMain{
+    font-family: 'Libre Baskerville', serif;
+    font-size: calc(1.475rem + 2.7vw);
+    text-transform: capitalize;
+    color: #2A2827;
+}
+.subTitleMain{
+    font-family: 'Libre Baskerville', serif;
+    font-size: calc(1rem + 1vw);
+    text-transform: capitalize;
+    color: #6E6968;
+    font-weight: bold;
+}
+
+.titleSection{
+    font-family: 'Nuosu SIL', serif;
+    font-size: calc(1rem + 2.7vw);
+    font-weight: 300;
+    line-height: 1.9;
+}
